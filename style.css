@@ -153,7 +153,9 @@ p {
 
 .info {
     display: flex;
-    padding-top: 20px;
+    align-items: center;
+    line-height: 50px;
+    padding: 20px 0px;
     gap: 10px; 
 }
 
