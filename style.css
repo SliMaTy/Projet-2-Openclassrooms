@@ -155,15 +155,13 @@ p {
     display: flex;
     padding-top: 20px;
     gap: 10px; 
-    
-
 }
 
-.iteminfo {
-    border: 2px solid #D9D9D9;
+.info img{
+    border: 1px solid #D9D9D9;
     border-radius: 100%;
-    padding: 8px;
-
+    padding: 10px;
+    
 }
 
 .textinfo {
@@ -234,6 +232,19 @@ p {
 .etoile {
     color: var(--c2);
 }
+
+.sectionPopulaire-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sectionPopulaire-text img {
+    width: 18px;
+    height: 15px;
+}
+
 
 .hebergements .carding img {
     height: 125px;
