@@ -38,6 +38,11 @@ p {
     padding: 0 50px;
 }
 
+a:visited {
+    color:black;
+    text-decoration: underline white;
+} 
+
 
 
 /* Header */
@@ -181,7 +186,7 @@ p {
 
 /* Main */
 
-.sectionHerbegement{
+.sectionHebergement{
     background: #F2F2F2;
     padding: 40px;
     border-radius: 20px;
@@ -325,30 +330,3 @@ footer ul {
 
 /*footer */
 
-
-
-
-
-/* reponsive */
-
-@media screen and (max-width: 768px){
-    .filtre {
-        display: block;
-    }
-    
-    .filtre p {
-        margin-bottom: 0;
-    }
-    
-    .filtre .filtreContainer {
-        gap: 15px;
-    }
-    
-    .filtre .filtreContainer li {
-        width: calc(50% - 7.5px);
-    }
-    
-    
-}
-
-/* reponsive */

@@ -1,0 +1,25 @@
+@media screen and (max-width: 1300px){
+    
+
+
+    /* main */
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .section-activite ul {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .section-activite ul li img {
+        width: 100%;
+        height: 190px;
+    }
+
+
+    /* main */
+
+    
+}
