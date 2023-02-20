@@ -38,7 +38,7 @@ p {
     padding: 0 50px;
 }
 
-a:visited {
+a {
     color:black;
     text-decoration: underline white;
 } 
@@ -72,7 +72,7 @@ a:visited {
     line-height: 100px;
 }
 
-.nav nav ul li.active {
+.nav nav ul li:active {
     border-top: 4px solid var(--c1);
 }
 
