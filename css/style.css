@@ -72,8 +72,12 @@ a {
     line-height: 100px;
 }
 
-.nav nav ul li:active {
+.nav nav ul li:hover {
     border-top: 4px solid var(--c1);
+}
+
+.nav nav ul li a:hover {
+    color: var(--c1);
 }
 
 
@@ -93,6 +97,15 @@ a {
     justify-content: center;
     align-items: center;
     border-radius: 15px 0px 0px 15px;
+}
+
+.loupe {
+    display: none;
+    background: var(--c1);
+    border-radius: 0px 15px 15px 0px;
+    color: var(--cw);
+    padding: 0 15px;
+    border: 0; 
 }
 
 .recherche input[type="text"] {
@@ -187,7 +200,7 @@ a {
 /* Main */
 
 .sectionHebergement{
-    background: #F2F2F2;
+    background: var(--c2);
     padding: 40px;
     border-radius: 20px;
 }

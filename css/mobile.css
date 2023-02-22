@@ -2,7 +2,7 @@
 
 
     .main {
-        padding: 0 20px;
+        padding: 0 10px;
     }
     
     /* header */
@@ -61,13 +61,25 @@
         flex-direction: column;
     }
 
+    .recherche input[type="submit"] {
+        display: none;
+    }
+
+    .loupe {
+        display: block;
+    }
+
+
+
     /* header */
 
 
 
     /* main */
 
-
+    .sectionHebergement{
+        padding: 20px;
+    }
 
     .flex {
         flex-direction: column;
@@ -96,6 +108,8 @@
     footer {
         flex-direction: column;
         white-space: nowrap;
+        padding: 15px;
+        
     }
     
 
